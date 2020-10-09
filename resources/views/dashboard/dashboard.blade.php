@@ -634,13 +634,87 @@
                             <img src="image/pas/46.png" width="202">
                         </div>
                     </div>
+                    <div class="row mx-auto justify-content-center">
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/47.jpg" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/48.png" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/49.jpg" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/50.jpg" width="202">
+                        </div>
+                    </div>
+                    <div class="row mx-auto justify-content-center">
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/51.png" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/52.png" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/53.jpg" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/54.png" width="202">
+                        </div>
+                    </div>
+                    <div class="row mx-auto justify-content-center">
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/55.jpg" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/56.png" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/57.jpg" width="202">
+                        </div>
+                        <div class="col-xl-2 text-center">
+                            <img src="image/pas/58.jpg" width="202">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         </div>
     </div>
-        <!--end-->
-    
+    <!--end-->
+
+
+    <!--partners-sponsors-->
+    <div class="container-fluid">
+        <div class="parallax">
+            <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="parallax">
+            <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
+        </div>
+    </div>
+    <div id="partners-sponsors">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mx-auto justify-content-center">
+                    <div class="col-xl-12 text-center">
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12 text-center">
+                                <p>We welcome regular partners and sponsors for events, campaigns and even for books.<br>The name of the sponsor will be included in all of our maketing materials such as flyers, leaflets, print and social media ads.</p>
+                            </div>
+                            <div class="col-xl-12 text-center">
+                                <label>COMPANY NAME:</label> <span>&#42;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end-partner-sponsor-->
+
 </div>
 
 @endsection
