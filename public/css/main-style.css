@@ -1,0 +1,311 @@
+/*section*/
+
+/*overall*/
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax {
+    background-image: url("../image/heart1.png");
+    max-width: 100%;
+    height: 4.688em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500%;
+}
+
+
+.p-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.500rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    padding: 0.313em 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 400;
+    margin-right: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    padding: 0 rem;
+    font-weight: 600;
+    zoom: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+a:hover {
+    color: #dd9933;
+    text-decoration: none;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+    padding: 0;
+}
+
+
+
+/*for font-family:
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
+.container{
+    box-sizing: content-box;
+    padding: 30px 120px 30px 120px;
+}
+
+/*navbar*/
+nav {
+    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
+    padding: 0 30px 0 30px;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-brand {
+    box-sizing: content-box;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    padding-left: 17px;
+    padding-right: 17px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item .contact{
+    padding-right: 0px;
+}
+
+/*socialbar*/
+
+
+/*chat-bot*/
+
+/*home*/
+#home .container{
+    padding-top: 110px;
+}
+
+.img-home {
+    box-sizing: border-box;
+    width: 40%;
+    height: auto;
+    max-height: auto;
+}
+
+.home-title1 {
+    font-weight: bold;
+    font-size: 2.500rem;
+    color: black;
+}
+
+.home-title2 {
+    font-style: italic;
+    font-size: 1.250rem;
+    color: black;
+}
+
+/*about*/
+#about .container-fluid{
+    background-color: #d8d4d4;
+    width: 100%;
+}
+
+#about img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-top: 1.563em;
+}
+.about-img1 {
+    margin-top: 80px;
+}
+
+.about-img2{
+    padding-right: 10px;
+}
+
+.about-img3{
+    padding-left: 10px;
+}
+
+/*core-belief*/
+#corebeliefs h2{
+    color: #74C1E4;
+    font-size: 30px;
+    letter-spacing: 3.5;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3.5;
+    margin-bottom: 40px;
+}
+
+#corebeliefs ul{
+    list-style: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+
+}
+
+#corebeliefs li{
+    position: relative;
+    padding-left: 24px;
+}
+
+#corebeliefs li::before{
+    position: absolute;
+    content: "• ";
+    color:  green;
+    left: 0;
+}
+
+#vision-mission .content{
+    box-sizing: border-box;
+    margin-top: 25px; 
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+}
+
+#vision-mission .img{
+    width: 520px;
+    height: 260px;
+}
+
+
+/*about-advocacy*/
+#advocacy-team .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#our-advocacy .container-fluid{
+    background-image: url(../image/About/download.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#our-advocacy h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #dd9933;
+    text-shadow: -1px 4px 3px #000000;
+}
+/*programs*/
+#our-program img{
+    border: 10px solid #dd9933;
+    display: block;
+}
+
+#our-program a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #dd9933;
+}
+
+#our-program p{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+#our-program ul{
+    text-align: left;
+}
+
+/*gallery*/
+
+/*news-events*/
+#news-events .container-fluid{
+    box-sizing: border-box;
+    margin: 80px;
+}
+#news-events h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#news-events p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+}
+
+/*souvenir*/
+#souvenir img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*volunteer*/
+#volunteer img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*partner&sponsor*/
+
+/*bepartner&sponsor*/
+
+/*foreignsponsorship*/
+
+/*footer*/
+
+/*responsive*/
