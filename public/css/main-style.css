@@ -303,17 +303,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 /*partner&sponsor*/
 
 /*bepartner&sponsor*/
-
-.form-control, .input-group-sm{
-    height: 17px;
-    width: 571px;
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
-
-.form-control{
-    border: 1px solid #F5F5F5;
-    background-color: #F5F5F5;
-}
-
 
 
 /*foreignsponsorship*/

@@ -39,9 +39,31 @@
     @yield('layout')
 
     @yield('script')
-
-    {{-- @include('layout/footer') --}}
-
 </body>
+
+<footer>
+    <div id="footer">
+    <div class="container-fluid">
+    <div class="container">
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-4">
+        <li>NAVIGATION</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Volunteer Member</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </div>
+    <div class="col-xl-4">
+        <h2>CONTACT INFORMATION</h2>
+        <li>6876649 loc. 109</li>
+        <li>09435054641</li>
+        <li>jopahoyo@sjcgroup.ph</li>
+        <li>amestoce@ilovemycountry.ph</li>
+        <li>Contact Person: Jennifer Pahoyo</li>
+    </div>
+    </div>
+    </div>
+</footer>
 
 </html>
