@@ -12,7 +12,7 @@ body {
 
 .parallax {
     background-image: url("../image/heart1.png");
-    max-width: 100%;
+    width: 100%;
     height: 4.688em;
     background-attachment: fixed;
     background-position: center;
@@ -33,8 +33,8 @@ body {
 p {
     margin-top: 10px;
     margin-bottom: 0;
-    margin-left: 400;
-    margin-right: 400;
+    margin-left: 0;
+    margin-right: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -303,6 +303,18 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 /*partner&sponsor*/
 
 /*bepartner&sponsor*/
+
+.form-control, .input-group-sm{
+    height: 17px;
+    width: 571px;
+}
+
+.form-control{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+}
+
+
 
 /*foreignsponsorship*/
 

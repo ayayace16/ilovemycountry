@@ -1,6 +1,7 @@
 @extends('layout/header')
 @include('layout/navbar')
 @include('layout/socialbar')
+@include('layout/contact-form-ps')
 @section('style')
 <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
 <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
@@ -42,12 +43,10 @@
     <!--end-of-home-->
 
     <!--about-->
-    <div class="container-fluid">
+    <div id="about">
         <div class="parallax">
             <h2 class="p-title">ABOUT US</h2>
         </div>
-    </div>
-    <div id="about">
         <div class="container-fluid">
             <div class="container">
                 <div class="row mx-auto justify-content-center">
@@ -99,379 +98,371 @@
                 </div>
             </div>
             <div id="vision-mission">
-            <div class="content">
-                <div class="row mx-auto justify-content-center">
-                    <div class="col-xl-6.5 text-center border">
-                        <div class="col-xl-12 text-center">
-                            <img src="image/About/vission.png">
-                        </div>
-                        <div class="col-xl-12 text-center">
-                            <h2>OUR MISSION & VISION</h2>
+                <div class="content">
+                    <div class="row mx-auto justify-content-center">
+                        <div class="col-xl-6.5 text-center border">
+                            <div class="col-xl-12 text-center">
+                                <img src="image/About/vission.png">
+                            </div>
+                            <div class="col-xl-12 text-center">
+                                <h2>OUR MISSION & VISION</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!--end-of-corebeliefs-->
 
     <!--advocacy-team-->
+    <div class="parallax">
+        <h2 class="p-title">ADVOCACY TEAM</h2>
+    </div>
+</div>
+<div id="advocacy-team">
     <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">ADVOCACY TEAM</h2>
-        </div>
-    </div>
-    <div id="advocacy-team">
-        <div class="container-fluid">
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <div class="row mx-auto justify-content-center">
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Sir-Sison.png">
-                            <h4>NEIL SISON</h4>
-                            <h5 id="h5">FOUNDER AND CEO</h5>
-                        </div>
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Ma'am-Alina.png">
-                            <h4>ALINA ORILLO-SISON</h4>
-                            <h5 id="h5">FOUNDER AND COO</h5>
-                        </div>
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Sir-Waw.png">
-                            <h4>WAW MANLAPAZ</h4>
-                            <h5 id="h5">CO-FOUNDER & CHIEF MARKETING STATEGIST</h5>
-                        </div>
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Ma'am-Aiza.png">
-                            <h4>AIZA P. CAMUA</h4>
-                            <h5 id="h5">TREASURER</h5>
-                        </div>
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-12 text-center">
+                <div class="row mx-auto justify-content-center">
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Sir-Sison.png">
+                        <h4>NEIL SISON</h4>
+                        <h5 id="h5">FOUNDER AND CEO</h5>
                     </div>
-                    <div class="row mx-auto justify-content-start">
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Ma'am-Jennifer.png" class="picture">
-                            <h4>JENNIFER PAHOYO</h4>
-                            <h5 id="h5">MANAGER</h5>
-                        </div>
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Ma'am-Abby.png" class="picture">
-                            <h4>ABBY GRACE ESTOCE</h4>
-                            <h5 id="h5">PROGRAM ASSOCIATE</h5>
-                        </div>
-                        <div class="col-xl-3 text-center">
-                            <img src="image/About/advocacy-team/Ma'am-Cecile.png" class="picture">
-                            <h4>CECILIA R. OREDINA</h4>
-                            <h5 id="h5">CONSULTANT</h5>
-                        </div>
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Ma'am-Alina.png">
+                        <h4>ALINA ORILLO-SISON</h4>
+                        <h5 id="h5">FOUNDER AND COO</h5>
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Sir-Waw.png">
+                        <h4>WAW MANLAPAZ</h4>
+                        <h5 id="h5">CO-FOUNDER & CHIEF MARKETING STATEGIST</h5>
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Ma'am-Aiza.png">
+                        <h4>AIZA P. CAMUA</h4>
+                        <h5 id="h5">TREASURER</h5>
+                    </div>
+                </div>
+                <div class="row mx-auto justify-content-start">
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Ma'am-Jennifer.png" class="picture">
+                        <h4>JENNIFER PAHOYO</h4>
+                        <h5 id="h5">MANAGER</h5>
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Ma'am-Abby.png" class="picture">
+                        <h4>ABBY GRACE ESTOCE</h4>
+                        <h5 id="h5">PROGRAM ASSOCIATE</h5>
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <img src="image/About/advocacy-team/Ma'am-Cecile.png" class="picture">
+                        <h4>CECILIA R. OREDINA</h4>
+                        <h5 id="h5">CONSULTANT</h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--end-of-advocacy-team-->
+</div>
+<!--end-of-advocacy-team-->
 
-    <!--our-advoacy-->
+<!--our-advoacy-->
+<div class="parallax">
+    <h2 class="p-title">OUR ADVOCACY</h2>
+</div>
+</div>
+<div id="our-advocacy">
     <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">OUR ADVOCACY</h2>
-        </div>
-    </div>
-    <div id="our-advocacy">
-        <div class="container-fluid">
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-11 text-center">
-                    <h2>WE LOVE TO PRODUCE<br>EXTRAORDINARY AND HEROIC FILIPINOS<br>WHO WILL HELP MAKE THE
-                        PHILIPPINES A<br>FRAUD-FREE COUNTRY!</h2>
-                </div>
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-11 text-center">
+                <h2>WE LOVE TO PRODUCE<br>EXTRAORDINARY AND HEROIC FILIPINOS<br>WHO WILL HELP MAKE THE
+                    PHILIPPINES A<br>FRAUD-FREE COUNTRY!</h2>
             </div>
         </div>
     </div>
-    <!--end-of-advocacy-team-->
+</div>
+<!--end-of-advocacy-team-->
 
-    <!--our-programs-->
+<!--our-programs-->
+    <div class="parallax">
+        <h2 class="p-title">OUR ADVOCACY</h2>
+    </div>
+</div>
+<div id="our-program">
     <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">OUR ADVOCACY</h2>
-        </div>
-    </div>
-    <div id="our-program">
-        <div class="container-fluid">
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-3">
-                            <img src="image/Programs/programs-1.jpg" width="289.78px" height="196.06px">
-                        </div>
-                        <div class="col-xl-5">
-                            <a href="#">ILOVEMYCOUNTRY FOR THE FAMILY</a>
-                            <p>Talks and seminars on how we love our country more and value formation for
-                                the
-                                family.
-                                <ul>
-                                    <li>Feeding Program</li>
-                                    <li>Calamity Assistance</li>
-                                </ul>
-                            </p>
-                        </div>
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-12 text-center">
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-3">
+                        <img src="image/Programs/programs-1.jpg" width="289.78px" height="196.06px">
                     </div>
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-5">
-                            <a href="#">ILOVEMYCOUNTRY IN COMMUNITY</a>
-                            <p>Talks and seminars on how to love our country more, livelihood training,
-                                and values formation for
-                                the community.
-                                This program also includes:
-                                <ul>
-                                    <li>iLoveMyCountry Feeing Program</li>
-                                    <li>Calamity Assistance Program</li>
-                                    <li>Livelihood and Financial Literacy Seminar</li>
-                                </ul>
-                            </p>
-                        </div>
+                    <div class="col-xl-5">
+                        <a href="#">ILOVEMYCOUNTRY FOR THE FAMILY</a>
+                        <p>Talks and seminars on how we love our country more and value formation for
+                            the
+                            family.
+                            <ul>
+                                <li>Feeding Program</li>
+                                <li>Calamity Assistance</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-5">
+                        <a href="#">ILOVEMYCOUNTRY IN COMMUNITY</a>
+                        <p>Talks and seminars on how to love our country more, livelihood training,
+                            and values formation for
+                            the community.
+                            This program also includes:
+                            <ul>
+                                <li>iLoveMyCountry Feeing Program</li>
+                                <li>Calamity Assistance Program</li>
+                                <li>Livelihood and Financial Literacy Seminar</li>
+                            </ul>
+                        </p>
+                    </div>
 
-                        <div class="col-xl-3">
-                            <img src="image/Programs/programs-2.png" width="289.78px" height="196.06px">
-                        </div>
+                    <div class="col-xl-3">
+                        <img src="image/Programs/programs-2.png" width="289.78px" height="196.06px">
                     </div>
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-3">
-                            <img src="image/Programs/programs-3.png" width="289.78px" height="196.06px">
-                        </div>
-                        <div class="col-xl-5">
-                            <div class="programc">
-                                <a href="#">ILOVEMYCOUNTRY IN SCHOOLS</a>
-                                <p>Talks and symposia on how to love our country more to make it a
-                                    Fraud-Free country.</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-3">
+                        <img src="image/Programs/programs-3.png" width="289.78px" height="196.06px">
                     </div>
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-5">
-                            <a href="#">ILOVEMYCOUNTRY IN BUSINESS AND PROFESSION</a>
-                            <p>Seminars, symposia, and fora in a corporate and professional setting on how
-                                a
-                                company can
-                                contribute to make the Philippines a Fraued-Free country. This program is in
-                                coordination
-                                with
-                                Professionals of the Future (POF)</p>
-                        </div>
-                        <div class="col-xl-3">
-                            <img src="image/Programs/programs-4.jpg" width="289.78px" height="196.06px">
+                    <div class="col-xl-5">
+                        <div class="programc">
+                            <a href="#">ILOVEMYCOUNTRY IN SCHOOLS</a>
+                            <p>Talks and symposia on how to love our country more to make it a
+                                Fraud-Free country.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row mx=auto justify-content-center">
-                <div class="col-xl-8">
-                    <div class="parallax">
-                        <h2 class="p-title">MEDIA CAMPAIGNS & AWARDS</h2>
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-5">
+                        <a href="#">ILOVEMYCOUNTRY IN BUSINESS AND PROFESSION</a>
+                        <p>Seminars, symposia, and fora in a corporate and professional setting on how
+                            a
+                            company can
+                            contribute to make the Philippines a Fraued-Free country. This program is in
+                            coordination
+                            with
+                            Professionals of the Future (POF)</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <img src="image/Programs/programs-4.jpg" width="289.78px" height="196.06px">
                     </div>
                 </div>
             </div>
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-3">
-                            <img src="image/Programs/mca/mca-1.png" class="programb" width="289.78px" height="196.06px">
-                        </div>
-                        <div class="col-xl-5">
-                            <a href="#">ILOVEMYCOUNTRY RUN</a>
-                            <p class="text-left">A year fun-run gathering of Extraordinary and Heroic Filipino.
-                                Participants
-                                of this event run for
-                                a
-                                ause
-                                and advocates of ILMCP vision and mission.</p>
-                        </div>
+        </div>
+        <div class="row mx=auto justify-content-center">
+            <div class="col-xl-8">
+                <div class="parallax">
+                    <h2 class="p-title">MEDIA CAMPAIGNS & AWARDS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-12 text-center">
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-3">
+                        <img src="image/Programs/mca/mca-1.png" class="programb" width="289.78px" height="196.06px">
                     </div>
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-5">
-                            <a href="#">EXTRAORDINARY AND HEROIC FILIPINO AWARDS</a>
-                            <p class="text-left">The highest award given to Filipino who explicit Extraordinary and
-                                Heroic deeds in
-                                showing
-                                the
-                                love for the country.</p>
-                        </div>
-                        <div class="col-xl-3 text-center">
-                            <img src="image/Programs/mca/mca-2.png" class="programd" width="289.78px" height="196.06px">
-                        </div>
+                    <div class="col-xl-5">
+                        <a href="#">ILOVEMYCOUNTRY RUN</a>
+                        <p class="text-left">A year fun-run gathering of Extraordinary and Heroic Filipino.
+                            Participants
+                            of this event run for
+                            a
+                            ause
+                            and advocates of ILMCP vision and mission.</p>
                     </div>
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-3">
-                            <img src="image/Programs/mca/mca-3.png" class="programb" width="289.78px" height="196.06px">
-                        </div>
-                        <div class="col-xl-5">
-                            <a href="#">SOCIAL MEDIA CAMPAIGNS</a>
-                            <p class="text-left">An everyday posting of photos, videos, blogs an articles showing how to
-                                love your country
-                                and
-                                uplifting the Philippines as a nation.</p>
-                        </div>
+                </div>
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-5">
+                        <a href="#">EXTRAORDINARY AND HEROIC FILIPINO AWARDS</a>
+                        <p class="text-left">The highest award given to Filipino who explicit Extraordinary and
+                            Heroic deeds in
+                            showing
+                            the
+                            love for the country.</p>
+                    </div>
+                    <div class="col-xl-3 text-center">
+                        <img src="image/Programs/mca/mca-2.png" class="programd" width="289.78px" height="196.06px">
+                    </div>
+                </div>
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-3">
+                        <img src="image/Programs/mca/mca-3.png" class="programb" width="289.78px" height="196.06px">
+                    </div>
+                    <div class="col-xl-5">
+                        <a href="#">SOCIAL MEDIA CAMPAIGNS</a>
+                        <p class="text-left">An everyday posting of photos, videos, blogs an articles showing how to
+                            love your country
+                            and
+                            uplifting the Philippines as a nation.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--end-of-our-programs-->
+</div>
+<!--end-of-our-programs-->
 
-    <!--Gallery-->
+<!--Gallery-->
+    <div class="parallax">
+        <h2 class="p-title">GALLERY</h2>
+    </div>
+</div>
+<!--End-of-Gallery-->
+
+<!--News-Events-->
+    <div class="parallax">
+        <h2 class="p-title">NEWS AND EVENTS</h2>
+    </div>
+</div>
+<div id="news-events">
     <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">GALLERY</h2>
-        </div>
-    </div>
-    <!--End-of-Gallery-->
-
-    <!--News-Events-->
-    <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">NEWS AND EVENTS</h2>
-        </div>
-    </div>
-    <div id="news-events">
-        <div class="container-fluid">
-            <div class="row mx-auto justify-content-center border">
-                <div class="col-xl-12 text-center border">
-                    <div class="row mx=auto justify-content-center border">
-                        <a href="#">
-                            <div class="col-xl-3 border">
-                                <img src="image/news/news-1.jpg" width="289.78px" height="196.06px">
-                            </div>
-                            <div class="col-xl-6 text-left border">
-                                <h2>ILMC Run 2019</h2>
-                                <p>iLoveMyCountry.Ph Run 2019 for Fraud-Free Philippines. <br>
-                                    Join us this November as we bring you the <br> biggest and much awaited
-                                    Extraordinary and
-                                    Heroic running
-                                    event of the year, iLoveMyCountry.PH Run 2019 for Fraud-Free Philippines <br>
-                                    Cebu - Novermber 9, 2019 at Cebu Business Park <br>
-                                    Leyte - November 16, 2019 at Candahug, Paolo Leyte <br>
-                                    Davao - November 23, 2019 at Davao People's Park <br>
-                                    Manila - November 30, 2019 at Marikina Sports Center</p>
-                            </div>
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="row mx=auto justify-content-center border">
-                        <a href="#">
-                            <div class="col-xl-3 border">
-                                <img src="image/news/news-2.png" width="289.78px" height="196.06px">
-                            </div>
-                            <div class="col-xl-5 text-left border">
-                                <h2>Heroic Awards: An honest Janitor returns an envelope filled with
-                                    dollar bills</h2>
-                                <p>Losing your belongings in a public place may be one of the worst things that could
-                                    happen, and there is
-                                    very little chance that you could get it back. But...</p>
-                            </div>
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="row mx=auto justify-content-center border">
-                        <a href="#">
-                            <div class="col-xl-3 border">
-                                <img src="image/news/news-3.jpg" width="289.78px" height="196.06px">
-                            </div>
-                            <div class="col-xl-5 text-left border">
-                                <h2>FEEDING MISSION</h2>
-                                <p>The recent population of PCJ (Pasig City Jail) is composed of 1,539 Males. The
-                                    feeding mission were done
-                                    mostly by our parner, DADA's lechon. SCP had our first mission last...</p>
-                            </div>
-                        </a>
-                    </div>
-                    <hr>
-                    <div class="row mx=auto justify-content-center border">
-                        <a href="#">
-                            <div class="col-xl-3 border">
-                                <img src="image/news/news-4.png" width="289.78px" height="196.06px">
-                            </div>
-                            <div class="col-xl-5 text-left border">
-                                <h2>ILoveMyCountry HEROIC RUN 2018</h2>
-                                <p>The first ever ilovecountry.ph Heroic Run 2018 was held last November 10, 2018 at the
-                                    Amoranto Sports
-                                    Complex in Quezon City.</p>
-                            </div>
-                        </a>
-                    </div>
+        <div class="row mx-auto justify-content-center border">
+            <div class="col-xl-12 text-center border">
+                <div class="row mx=auto justify-content-center border">
+                    <a href="#">
+                        <div class="col-xl-3 border">
+                            <img src="image/news/news-1.jpg" width="289.78px" height="196.06px">
+                        </div>
+                        <div class="col-xl-6 text-left border">
+                            <h2>ILMC Run 2019</h2>
+                            <p>iLoveMyCountry.Ph Run 2019 for Fraud-Free Philippines. <br>
+                                Join us this November as we bring you the <br> biggest and much awaited
+                                Extraordinary and
+                                Heroic running
+                                event of the year, iLoveMyCountry.PH Run 2019 for Fraud-Free Philippines <br>
+                                Cebu - Novermber 9, 2019 at Cebu Business Park <br>
+                                Leyte - November 16, 2019 at Candahug, Paolo Leyte <br>
+                                Davao - November 23, 2019 at Davao People's Park <br>
+                                Manila - November 30, 2019 at Marikina Sports Center</p>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <button type="button" class="btn btn-outline-warning">READ MORE NEWS</button>
+                <hr>
+                <div class="row mx=auto justify-content-center border">
+                    <a href="#">
+                        <div class="col-xl-3 border">
+                            <img src="image/news/news-2.png" width="289.78px" height="196.06px">
+                        </div>
+                        <div class="col-xl-5 text-left border">
+                            <h2>Heroic Awards: An honest Janitor returns an envelope filled with
+                                dollar bills</h2>
+                            <p>Losing your belongings in a public place may be one of the worst things that could
+                                happen, and there is
+                                very little chance that you could get it back. But...</p>
+                        </div>
+                    </a>
+                </div>
+                <hr>
+                <div class="row mx=auto justify-content-center border">
+                    <a href="#">
+                        <div class="col-xl-3 border">
+                            <img src="image/news/news-3.jpg" width="289.78px" height="196.06px">
+                        </div>
+                        <div class="col-xl-5 text-left border">
+                            <h2>FEEDING MISSION</h2>
+                            <p>The recent population of PCJ (Pasig City Jail) is composed of 1,539 Males. The
+                                feeding mission were done
+                                mostly by our parner, DADA's lechon. SCP had our first mission last...</p>
+                        </div>
+                    </a>
+                </div>
+                <hr>
+                <div class="row mx=auto justify-content-center border">
+                    <a href="#">
+                        <div class="col-xl-3 border">
+                            <img src="image/news/news-4.png" width="289.78px" height="196.06px">
+                        </div>
+                        <div class="col-xl-5 text-left border">
+                            <h2>ILoveMyCountry HEROIC RUN 2018</h2>
+                            <p>The first ever ilovecountry.ph Heroic Run 2018 was held last November 10, 2018 at the
+                                Amoranto Sports
+                                Complex in Quezon City.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <!--End-of-News-Events-->
-
-    <!--souvenir-->
-    <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">OUR SOUVENIR ITEMS</h2>
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-12 text-center">
+                <button type="button" class="btn btn-outline-warning">READ MORE NEWS</button>
+            </div>
         </div>
     </div>
-    <div id="souvenir">
-        <div class="container-fluid">
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <div class="row mx=auto justify-content-center">
-                        <div class="col-xl-2">
-                            <img src="image/souvenir/souvenir-1.png" width="175px" height="175px">
-                        </div>
-                        <div class="col-xl-2">
-                            <img src="image/souvenir/souvenir-2.png" width="175px" height="175px">
-                        </div>
-                        <div class="col-xl-2">
-                            <img src="image/souvenir/souvenir-3.png" width="175px" height="175px">
-                        </div>
-                        <div class="col-xl-2">
-                            <img src="image/souvenir/souvenir-4.png" width="175px" height="175px">
-                        </div>
+</div>
+<!--End-of-News-Events-->
+
+<!--souvenir-->
+    <div class="parallax">
+        <h2 class="p-title">OUR SOUVENIR ITEMS</h2>
+    </div>
+</div>
+<div id="souvenir">
+    <div class="container-fluid">
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-12 text-center">
+                <div class="row mx=auto justify-content-center">
+                    <div class="col-xl-2">
+                        <img src="image/souvenir/souvenir-1.png" width="175px" height="175px">
+                    </div>
+                    <div class="col-xl-2">
+                        <img src="image/souvenir/souvenir-2.png" width="175px" height="175px">
+                    </div>
+                    <div class="col-xl-2">
+                        <img src="image/souvenir/souvenir-3.png" width="175px" height="175px">
+                    </div>
+                    <div class="col-xl-2">
+                        <img src="image/souvenir/souvenir-4.png" width="175px" height="175px">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--end-souvenir-->
+</div>
+<!--end-souvenir-->
 
-    <!--volunteer-->
-    <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">VOLUNTEER</h2>
-        </div>
+<!--volunteer-->
+    <div class="parallax">
+        <h2 class="p-title">VOLUNTEER</h2>
     </div>
-    <div id="volunteer">
-        <div class="container-fluid">
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <div class="col-xl-2 text-center">
-                        <img src="image/volunteer/vol-1.jpg" width="343px" height="215px">
-                    </div>
-                    <div class="col-xl-2 text-center">
-                        <img src="image/volunteer/vol-2.png" width="343px" height="215px">
-                    </div>
-                    <div class="col-xl-2 text-center">
-                        <img src="image/volunteer/vol-3.jpg" width="343px" height="215px">
-                    </div>
+</div>
+<div id="volunteer">
+    <div class="container-fluid">
+        <div class="row mx-auto justify-content-center">
+            <div class="col-xl-12 text-center">
+                <div class="col-xl-2 text-center">
+                    <img src="image/volunteer/vol-1.jpg" width="343px" height="215px">
+                </div>
+                <div class="col-xl-2 text-center">
+                    <img src="image/volunteer/vol-2.png" width="343px" height="215px">
+                </div>
+                <div class="col-xl-2 text-center">
+                    <img src="image/volunteer/vol-3.jpg" width="343px" height="215px">
                 </div>
             </div>
         </div>
     </div>
-    <!--end-volunteer-->
+</div>
+<!--end-volunteer-->
 
-    <!--our-partners-and-sponsors-->
-    <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
-        </div>
+<!--our-partners-and-sponsors-->
+    <div class="parallax">
+        <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
     </div>
-    <div id="partners-sponsors">
-        <div class="container-fluid">
-            <div class="container">
+</div>
+<div id="partners-sponsors">
+    <div class="container-fluid">
+        <div class="container">
             <div class="row mx-auto justify-content-center">
                 <div class="col-xl-12 text-center">
                     <div class="row mx-auto justify-content-center">
@@ -679,41 +670,21 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
-    <!--end-->
+</div>
+<!--end-->
 
 
-    <!--partners-sponsors-->
+<!--partners-sponsors-form-->
+<div class="container-fluid">
+    <div class="parallax">
+        <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
+    </div>
+</div>
     <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
-        </div>
+        @yield('contact-form-ps')
     </div>
-    <div class="container-fluid">
-        <div class="parallax">
-            <h2 class="p-title">OUR PARTNERS AND SPONSORS</h2>
-        </div>
-    </div>
-    <div id="partners-sponsors">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row mx-auto justify-content-center">
-                    <div class="col-xl-12 text-center">
-                        <div class="row mx-auto justify-content-center">
-                            <div class="col-xl-12 text-center">
-                                <p>We welcome regular partners and sponsors for events, campaigns and even for books.<br>The name of the sponsor will be included in all of our maketing materials such as flyers, leaflets, print and social media ads.</p>
-                            </div>
-                            <div class="col-xl-12 text-center">
-                                <label>COMPANY NAME:</label> <span>&#42;</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end-partner-sponsor-->
+<!--end-partner-sponsor-->
 
 </div>
 
