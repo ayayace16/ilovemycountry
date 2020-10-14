@@ -10,6 +10,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*label*/
+.flexbox-parallax{
+    display: flexbox;
+}
+
+.flexbox-parallax .flexbox-parallaxitem{
+    display: flex;
+    height: 75px;
+    background-image: url("../image/heart1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500%;
+    align-items: center;
+    justify-content: center;
+}
+
+div h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.500rem;
+    font-weight: bolder;
+    color: white;
+}
+
+
 .parallax {
     background-image: url("../image/heart1.png");
     width: 100%;
@@ -376,6 +402,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white {
 
 /*gallery*/
 
+
+
+
 /*news-events*/
 
 #news-events .container{
@@ -463,6 +492,59 @@ h3 {
 
 /*foreignsponsorship*/
 
+/*contact-us*/
+#partners-sponsors-form h4{
+    color: #74C1E4;
+    font-weight: 600;
+    font-size: 31px;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*footer*/
+#footer .container-fluid{
+    background-color: #DD9D3B;
+    color: white;
+}
+
+#footer .container{
+    padding: 50px 120px;
+}
+
+#footer ul{
+    list-style: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    padding: 0;
+}
+
+#footer .contact-footer{
+    line-height: 25px;
+}
+
+#footer .navigation{
+    font-weight: bold;
+}
+
+#footer a{
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+
+
+#site-footer .container-fluid{
+    background-color: black;
+    color: #bbbbbb;
+}
+
+#site-footer .container{
+    padding: 30px 120px;
+}
+
+#site-footer .site-info{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
 
 /*responsive*/

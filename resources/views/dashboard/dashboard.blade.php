@@ -13,6 +13,9 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
 @endsection
 @section('layout')
 <div class="container-fluid">
@@ -48,8 +51,10 @@
 
     <!--about-->
     <div id="about">
-        <div class="parallax">
-            <h2 class="p-title">ABOUT US</h2>
+        <div class="flexbox-parallax">
+            <div class="flexbox-parallaxitem">
+                <div><h2>ABOUT US</h2></div>
+            </div>
         </div>
         <div class="container-fluid">
             <div class="container">
@@ -338,6 +343,267 @@
     <!--Gallery-->
     <div class="parallax">
         <h2 class="p-title">GALLERY</h2>
+    </div>
+    <div id="gallery">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mx-auto justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12 text-center">
+                                <h2>iLoveMyCountry.Ph</h2>
+                            </div>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12">
+                                <h2>RUN FOR FRAUD FREE PHILIPPINES 2019</h2>
+                            </div>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12">
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-multi-item v-2"
+                                data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item col-12 col-md-4 active">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-1.jpg"
+                                            alt="Slide 1">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-2.jpg"
+                                            alt="Slide 2">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-3.jpg"
+                                            alt="Slide 3">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-4.jpg"
+                                            alt="Slide 4">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-5.jpg"
+                                            alt="Slide 5">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-6.jpg"
+                                            alt="Slide 6">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-7.jpg"
+                                            alt="Slide 7">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-8.jpg"
+                                            alt="Slide 8">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-9.jpg"
+                                            alt="Slide 9">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-10.jpg"
+                                            alt="Slide 10">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-11.jpg"
+                                            alt="Slide 11">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-12.jpg"
+                                            alt="Slide 12">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-13.jpg"
+                                            alt="Slide 13">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-14.jpg"
+                                            alt="Slide 14">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-15.jpg"
+                                            alt="Slide 15">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/rfffp2019/rfffp2019img-16.jpg"
+                                            alt="Slide 16">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12">
+                                <h2>TAAL VOLCANO RELIEF OPERATION</h2>
+                            </div>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12">
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-multi-item v-2"
+                                data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item col-12 col-md-4 active">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/1.jpg"
+                                            alt="Slide 1">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/2.jpg"
+                                            alt="Slide 2">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/3.jpg"
+                                            alt="Slide 3">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/4.jpg"
+                                            alt="Slide 4">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/5.jpg"
+                                            alt="Slide 5">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/6.jpg"
+                                            alt="Slide 6">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/7.jpg"
+                                            alt="Slide 7">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/taal-volcano-relief-operation/8.jpg"
+                                            alt="Slide 8">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12">
+                                <h2>HEROIC RUN 2018</h2>
+                            </div>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12">
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel slide carousel-multi-item v-2"
+                                data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item col-12 col-md-4 active">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/1.png" alt="Slide 1">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/2.png" alt="Slide 2">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/3.png" alt="Slide 3">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/4.png" alt="Slide 4">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/5.png" alt="Slide 5">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/6.png" alt="Slide 6">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/7.png" alt="Slide 7">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/8.png" alt="Slide 8">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/9.png" alt="Slide 9">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/10.png" alt="Slide 10">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/11.png" alt="Slide 11">
+                                    </div>
+                                    <div class="carousel-item col-12 col-md-4">
+                                        <img class="d-inline w-100" src="image/heroic-run2018/12.png" alt="Slide 12">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--End-of-Gallery-->
 
@@ -746,7 +1012,7 @@
                 <div class="row mx-auto justify-content-center">
                     <div class="col-xl-12">
                         <div class="row mx-auto justify-content-center">
-                            <div class="col-xl-6 text-center">
+                            <div class="col-xl-7 text-center">
                                 <p>We welcome regular partners and sponsors for events, campaigns and even for
                                     books.<br>The name of the sponsor will be included in all of our maketing materials
                                     such as flyers, leaflets, print and social media ads.</p>
@@ -775,27 +1041,10 @@
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-12">
-                                            <label for="representative-name">NAME :</label><span>&#42;</span>
-                                            <div class="form-row">
-                                                <div class="col-md-5">
-                                                    <div class="input-group input-group-sm mb-0">
-                                                        <input type="text" class="form-control" aria-label="fname"
-                                                            aria-describedby="inputGroup-sizing-sm"> </div>
-                                                </div>
-                                                <div class="col-md-5">
-                                                    <div class="input-group input-group-sm mb-0">
-                                                        <input type="text" class="form-control" aria-label="lname"
-                                                            aria-describedby="inputGroup-sizing-sm">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="col-md-5">
-                                                    <small id="fname" class="form-text text-muted">FIRST</small>
-                                                </div>
-                                                <div class="col-md-5">
-                                                    <small id="lname" class="form-text text-muted">LAST</small>
-                                                </div>
+                                            <label for="personal-name">NAME :</label><span>&#42;</span>
+                                            <div class="input-group input-group-sm mb-3">
+                                                <input type="text" class="form-control" aria-label="company-name"
+                                                    aria-describedby="inputGroup-sizing-sm">
                                             </div>
                                         </div>
                                     </div>
@@ -943,8 +1192,7 @@
                                         <label for="message">Message</label>
                                         <textarea class="form-control" id="message" rows="3"></textarea>
                                     </div>
-                                    <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ">
-                                    </div>
+                                    {{-- <div class="g-recaptcha" data-sitekey="6LcS5tYZAAAAAIJCQHu06c8zwL19meE2lP410l2U"></div> --}}
                                 </form>
                             </div>
                         </div>
@@ -967,8 +1215,8 @@
                 <div class="row mx-auto justify-content-center">
                     <div class="col-xl-12">
                         <div class="row mx-auto justify-content-center">
-                            <div class="col-xl-6 text-center">
-                                <h3>JOIN US!<br>BE A VOLUNTEER AND SUPPORT OUR PROGRAMS</h3>
+                            <div class="col-xl-9 text-center">
+                                <h4>JOIN US!<br>BE A VOLUNTEER AND SUPPORT OUR PROGRAMS</h4>
                             </div>
                         </div>
                         <div class="row mx-auto justify-content-center">
@@ -976,25 +1224,10 @@
                                 <form>
                                     <div class="form-row">
                                         <div class="form-group col-md-12">
-                                            <label for="representative-name">NAME :</label><span>&#42;</span>
-                                            <div class="form-row">
-                                                <div class="col-md-4">
-                                                    <div class="input-group input-group-sm mb-0">
-                                                        <input type="text" class="form-control" aria-label="fname"
-                                                            aria-describedby="inputGroup-sizing-sm"> </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="input-group input-group-sm mb-0">
-                                                        <input type="text" class="form-control" aria-label="mname"
-                                                            aria-describedby="inputGroup-sizing-sm">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="input-group input-group-sm mb-0">
-                                                        <input type="text" class="form-control" aria-label="lname"
-                                                            aria-describedby="inputGroup-sizing-sm">
-                                                    </div>
-                                                </div>
+                                            <label for="person-name">NAME :</label><span>&#42;</span>
+                                            <div class="input-group input-group-sm mb-3">
+                                                <input type="text" class="form-control" aria-label="company-name"
+                                                    aria-describedby="inputGroup-sizing-sm">
                                             </div>
                                         </div>
                                     </div>
@@ -1041,6 +1274,12 @@
                                         <p>jopahayo@ilovemycountry.ph<br>
                                             amestoce@ilovemycountry.ph</p>
                                     </div>
+                                    <div class="col-xl-12">
+                                        <p><iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.2882496320776!2d121.05919001432014!3d14.582643981427296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3911dd41f96fb88a!2sSison%20Corillo%20Parone%20%26%20Co.%20-%20SJC%20Group!5e0!3m2!1sen!2sph!4v1602601518023!5m2!1sen!2sph"
+                                                width="505" height="300" frameborder="0" style="border:0;"
+                                                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1060,4 +1299,5 @@
 <link rel="stylesheet" href="{{asset('js/bootstrap.min.js')}}">
 <link rel="stylesheet" href="{{asset('js/jquery.slim.min.js')}}">
 <link rel="stylesheet" href="{{asset('js/popper.min.js')}}">
+
 @endsection
