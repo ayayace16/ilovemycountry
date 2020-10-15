@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="row mx-auto justify-content-center">
-                            <div class="col-xl-11 text-center justify-content-center">
+                            <div class="col-xl-12 text-center justify-content-center">
                                 <p>iLoveMyCountry.Ph (ILMCP) is a non-stock, non-profit, and non-political organization
                                     which aims to create a community of Extraordinary and Heroic Filipinos for
                                     Fraud-Free
@@ -612,13 +612,13 @@
     <div id="news-events">
         <div class="container-fluid">
             <div class="container">
-                <div class="row mx-auto justify-content-center border">
-                    <div class="col-xl-12 text-center border">
+                <div class="row mx-auto justify-content-center">
+                    <div class="col-xl-12 text-center">
                         <div class="row mx=auto justify-content-center">
-                            <div class="col-xl-4 border">
+                            <div class="col-xl-4">
                                 <a href="#"> <img src="image/news/news-1.jpg" width="289.78px" height="196.06px"> </a>
                             </div>
-                            <div class="col-xl-6 text-left border">
+                            <div class="col-xl-6 text-left">
                                 <a href="#">
                                     <h2>ILMC Run 2019</h2>
                                     <p>iLoveMyCountry.Ph Run 2019 for Fraud-Free Philippines. <br>
@@ -634,56 +634,53 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="row mx=auto justify-content-center border">
-                            <a href="#">
-                                <div class="col-xl-3 border">
-                                    <img src="image/news/news-2.png" width="289.78px" height="196.06px">
+                        <div class="row mx=auto justify-content-center">
+                                <div class="col-xl-4">
+                                    <a href="#"><img src="image/news/news-2.png" width="289.78px" height="196.06px"></a>
                                 </div>
-                                <div class="col-xl-5 text-left border">
+                                <div class="col-xl-6 text-left">
+                                    <a href="#">
                                     <h2>Heroic Awards: An honest Janitor returns an envelope filled with
                                         dollar bills</h2>
                                     <p>Losing your belongings in a public place may be one of the worst things that
                                         could
                                         happen, and there is
                                         very little chance that you could get it back. But...</p>
+                                    </a>
                                 </div>
-                            </a>
+                            
                         </div>
                         <hr>
-                        <div class="row mx=auto justify-content-center border">
-                            <a href="#">
-                                <div class="col-xl-3 border">
-                                    <img src="image/news/news-3.jpg" width="289.78px" height="196.06px">
+                        <div class="row mx=auto justify-content-center">
+                                <div class="col-xl-4">
+                                    <a href="#"><img src="image/news/news-3.jpg" width="289.78px" height="196.06px"></a>
                                 </div>
-                                <div class="col-xl-5 text-left border">
-                                    <h2>FEEDING MISSION</h2>
+                                <div class="col-xl-6 text-left">
+                                    <a href="#"><h2>FEEDING MISSION</h2>
                                     <p>The recent population of PCJ (Pasig City Jail) is composed of 1,539 Males. The
                                         feeding mission were done
-                                        mostly by our parner, DADA's lechon. SCP had our first mission last...</p>
+                                        mostly by our parner, DADA's lechon. SCP had our first mission last...</p></a>
                                 </div>
-                            </a>
                         </div>
                         <hr>
-                        <div class="row mx=auto justify-content-center border">
-                            <a href="#">
-                                <div class="col-xl-3 border">
-                                    <img src="image/news/news-4.png" width="289.78px" height="196.06px">
+                        <div class="row mx=auto justify-content-center">
+                                <div class="col-xl-4">
+                                    <a href="#"><img src="image/news/news-4.png" width="289.78px" height="196.06px"></a>
                                 </div>
-                                <div class="col-xl-5 text-left border">
-                                    <h2>ILoveMyCountry HEROIC RUN 2018</h2>
+                                <div class="col-xl-6 text-left">
+                                    <a href="#"><h2>ILoveMyCountry HEROIC RUN 2018</h2>
                                     <p>The first ever ilovecountry.ph Heroic Run 2018 was held last November 10, 2018 at
                                         the
                                         Amoranto Sports
-                                        Complex in Quezon City.</p>
+                                        Complex in Quezon City.</p></a>
                                 </div>
-                            </a>
+                        </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12 text-center">
+                                <button type="button" class="btn btn-outline-warning">READ MORE NEWS</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row mx-auto justify-content-center">
-                <div class="col-xl-12 text-center">
-                    <button type="button" class="btn btn-outline-warning">READ MORE NEWS</button>
                 </div>
             </div>
         </div>
@@ -1097,6 +1094,11 @@
                                     BDO Account #: 006818014015<p>
                             </div>
                         </div>
+                        <div class="row mx-auto justify-content-center">
+                            <div class="col-xl-12 text-center">
+                                <button type="button" class="btn-4 btn-primary">Submit</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1190,7 +1192,6 @@
                                         <label for="message">Message</label>
                                         <textarea class="form-control" id="message" rows="3"></textarea>
                                     </div>
-                                    {{-- <div class="g-recaptcha" data-sitekey="6LcS5tYZAAAAAIJCQHu06c8zwL19meE2lP410l2U"></div> --}}
                                 </form>
                             </div>
                         </div>
@@ -1252,10 +1253,15 @@
                                         <textarea class="form-control" id="message" rows="3"></textarea>
                                     </div>
                                 </form>
+                                <div class="row mx-auto justify-content-center">
+                                    <div class="col-xl-12 text-center">
+                                        <button type="button" class="btn-4 btn-primary">Sign-up Now</button>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-xl-5">
                                 <div class="row mx-auto justify-content-center">
-                                    <div class="col-xl-12">
+                                    <div class="col-xl-9">
                                         <h3>Contact Information</h3>
                                     </div>
                                 </div>
@@ -1272,7 +1278,7 @@
                                         <p>jopahayo@ilovemycountry.ph<br>
                                             amestoce@ilovemycountry.ph</p>
                                     </div>
-                                    <div class="col-xl-12">
+                                    <div class="col-xl-9">
                                         <p><iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.2882496320776!2d121.05919001432014!3d14.582643981427296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3911dd41f96fb88a!2sSison%20Corillo%20Parone%20%26%20Co.%20-%20SJC%20Group!5e0!3m2!1sen!2sph!4v1602601518023!5m2!1sen!2sph"
                                                 width="505" height="300" frameborder="0" style="border:0;"
@@ -1288,8 +1294,8 @@
     </div>
     <!--end-contact-us-->
 </div>
-
 @endsection
+
 
 @section('script')
 <link rel="stylesheet" href="{{asset('js/bootstrap.bundle.js')}}">
@@ -1298,5 +1304,4 @@
 <link rel="stylesheet" href="{{asset('js/bootstrap.min.js')}}">
 <link rel="stylesheet" href="{{asset('js/jquery.slim.min.js')}}">
 <link rel="stylesheet" href="{{asset('js/popper.min.js')}}">
-
 @endsection

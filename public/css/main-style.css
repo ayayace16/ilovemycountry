@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /*navbar*/
@@ -43,8 +43,8 @@ nav img{
 }
 
 .nav-item {
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     height: 100%;
     
@@ -96,9 +96,8 @@ h2 {
 }
 
 .p-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 2.500rem;
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
     color: white;
     padding: 0.313em 0;
@@ -110,21 +109,19 @@ p {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
 
 a {
     color: #333333;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     padding: 0px;
     font-weight: 600;
     zoom: 1;
     letter-spacing: 1px;
     text-transform: uppercase;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 a:hover {
@@ -282,7 +279,6 @@ img {
     font-size: 30px;
     letter-spacing: 3.5px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -291,7 +287,6 @@ img {
     font-weight: 600;
     font-style: italic;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
 
 }
@@ -396,14 +391,12 @@ img {
 }
 
 #our-program a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #dd9933;
 }
 
 #our-program p {
     margin: 20px 0;
-    font-family: 'Roboto', sans-serif;
     text-align: left;
 }
 
@@ -412,9 +405,8 @@ img {
 }
 
 /*gallery*/
-.container-gallery {
-    box-sizing: content-box;
-    padding: 0;
+#gallery h2{
+    text-align: center;
 }
 
 
@@ -426,16 +418,15 @@ img {
 }
 
 #news-events h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 500;
 }
 
 #news-events p {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     text-transform: none;
+    white-space: wrap;
 }
 
 /*souvenir*/
@@ -498,7 +489,6 @@ img {
 
 /*bepartner&sponsor*/
 h3 {
-    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
@@ -511,7 +501,6 @@ h3 {
     color: #74C1E4;
     font-weight: 600;
     font-size: 31px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /*footer*/
@@ -526,7 +515,6 @@ h3 {
 
 #footer ul{
     list-style: none;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 30px;
     padding: 0;
 }
@@ -558,7 +546,6 @@ h3 {
 #site-footer .site-info{
     text-align: center;
     font-size: 14px;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 /*responsive*/
