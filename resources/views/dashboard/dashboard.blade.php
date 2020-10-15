@@ -51,10 +51,8 @@
 
     <!--about-->
     <div id="about">
-        <div class="flexbox-parallax">
-            <div class="flexbox-parallaxitem">
-                <div><h2>ABOUT US</h2></div>
-            </div>
+        <div class="parallax">
+            <h2 class="p-title">ABOUT US</h2>
         </div>
         <div class="container-fluid">
             <div class="container">
@@ -1290,6 +1288,7 @@
     </div>
     <!--end-contact-us-->
 </div>
+
 @endsection
 
 @section('script')
