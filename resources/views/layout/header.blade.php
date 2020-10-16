@@ -1,69 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap-grid.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap-grid.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap-reboot.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap-reboot.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/main-style.css')}}">
-    <link rel="stylesheet" href="{{asset('css/w3.css')}}">
-
+    
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('js/bootstrap.bundle.js')}}">
-    <link rel="stylesheet" href="{{asset('js/bootstrap.bundle.min.js')}}">
-    <link rel="stylesheet" href="{{asset('js/bootstrap.js')}}">
-    <link rel="stylesheet" href="{{asset('js/bootstrap.min.js')}}">
-    <link rel="stylesheet" href="{{asset('js/jquery.slim.min.js')}}">
-    <link rel="stylesheet" href="{{asset('js/popper.min.js')}}">
-
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+ 
     <title>ILOVEMYCOUNTRY.PH</title>
 </head>
 
 <body>
     @include('layout/navbar')
-    @yield('navbar')
-
-    @include('layout/socialbar')
-    @yield('socialbar')
-
+   
     @yield('style')
-
-    @yield('layout')
-
+    @yield('content')
     @yield('script')
-</body>
 
-<footer>
-    <div id="footer">
-    <div class="container-fluid">
-    <div class="container">
-        <div class="row mx-auto justify-content-center">
-            <div class="col-xl-4">
-        <li>NAVIGATION</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Volunteer Member</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </div>
-    <div class="col-xl-4">
-        <h2>CONTACT INFORMATION</h2>
-        <li>6876649 loc. 109</li>
-        <li>09435054641</li>
-        <li>jopahoyo@sjcgroup.ph</li>
-        <li>amestoce@ilovemycountry.ph</li>
-        <li>Contact Person: Jennifer Pahoyo</li>
-    </div>
-    </div>
-    </div>
-</footer>
+    @include('layout/footer')
+</body>
 
 </html>
