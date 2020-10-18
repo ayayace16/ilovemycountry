@@ -7,10 +7,8 @@
          <div class="row">
              <div class="divider"></div>
          </div>
-         <div class="row mx-auto justify-content-center">
-             <div class="col-sm-10 col-lg-12">
                  <div class="row mx=auto justify-content-center">
-                     <div class="col-lg-4">
+                     <div class="col-sm-10 col-md-4 col-xl-4">
                          <img src="image/Programs/programs-1.jpg" width="289.78px" height="196.06px">
                      </div>
                      <div class="col-xl-6">
@@ -40,13 +38,13 @@
                              </ul>
                          </p>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-sm-10 col-md-4 col-xl-4">
                          <img src="image/Programs/programs-2.png" width="289.78px" height="196.06px">
                      </div>
                  </div>
                  <hr>
                  <div class="row mx=auto justify-content-center">
-                     <div class="col-xl-4">
+                     <div class="col-sm-10 col-md-4 col-xl-4">
                          <img src="image/Programs/programs-3.png" width="289.78px" height="196.06px">
                      </div>
                      <div class="col-xl-6">
@@ -69,7 +67,7 @@
                              with
                              Professionals of the Future (POF)</p>
                      </div>
-                     <div class="col-xl-4">
+                     <div class="col-sm-10 col-md-4 col-xl-4">
                          <img src="image/Programs/programs-4.jpg" width="289.78px" height="196.06px">
                      </div>
                  </div>
@@ -85,7 +83,7 @@
                  <div class="row mx-auto justify-content-center">
                      <div class="col-xl-12">
                          <div class="row mx=auto justify-content-center">
-                             <div class="col-xl-4">
+                             <div class="col-sm-10 col-md-4 col-xl-4">
                                  <img src="image/Programs/mca/mca-1.png" width="289.78px" height="196.06px">
                              </div>
                              <div class="col-xl-6">
@@ -108,13 +106,13 @@
                                      the
                                      love for the country.</p>
                              </div>
-                             <div class="col-xl-4 text-center">
+                             <div class="col-sm-10 col-md-4 col-xl-4 text-center">
                                  <img src="image/Programs/mca/mca-2.png" width="289.78px" height="196.06px">
                              </div>
                          </div>
                          <hr>
                          <div class="row mx=auto justify-content-center">
-                             <div class="col-xl-4">
+                             <div class="col-sm-10 col-md-4 col-xl-4">
                                  <img src="image/Programs/mca/mca-3.png" width="289.78px" height="196.06px">
                              </div>
                              <div class="col-xl-6">
@@ -128,8 +126,6 @@
                          </div>
                      </div>
                  </div>
-             </div>
-         </div>
          <div class="row">
              <div class="divider"></div>
          </div>

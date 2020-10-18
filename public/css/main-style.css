@@ -310,6 +310,12 @@ h1 {
     margin-bottom: 100px;
 }
 
+@media (max-width: 320px){
+    #our-advocacy h2{
+        font-size: 23px;
+    }
+}
+
 /*programs*/
 #our-program img {
     border: 5px solid #dd9933;
@@ -331,6 +337,13 @@ h1 {
 #our-program ul {
     text-align: left;
 }
+
+@media (max-width: 1024px){
+    #our-program div {
+        text-align: center;
+    }
+}
+
 
 /*gallery*/
 #gallery h2 {
@@ -356,30 +369,29 @@ h1 {
 }
 
 @media (min-width:320px){
-#rfffp{
+    #rfffp{
     border: 1px solid gray;
-}
+    }
 
-#tvor{
+    #tvor{
     border: 1px solid gray;
-}
+    }
 
-#hr18{
+    #hr18{
     border: 1px solid gray;
-}
-}
+    }
 
-@media (max-width:320px){
     .img-carousel {
         width: 100%;
     }
+
+    #gallery h2 {
+        font-size: 25px;
+    }
+    
 }
 
 /*news-events*/
-
-#news-events .container {
-    padding: 50px 0;
-}
 
 #news-events h2 {
     font-size: 22px;
@@ -392,6 +404,18 @@ h1 {
     text-transform: none;
     white-space: wrap;
 }
+
+#news-events img{
+    width: 100%;
+}
+
+@media (max-width: 1024px){
+    #news-events a{
+        text-align: center;
+    }
+}
+
+
 
 /*souvenir*/
 #souvenir h2 {
@@ -421,28 +445,69 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 
+#souvenir button{
+    border: 0px;
+}
+
+
 #souvenir .btn-1 {
     margin: 10px;
     background-color: #FE7E00;
-    border: 0px;
+    border-radius: 15px;
+    padding: 10px 40px;
 }
 
 #souvenir .btn-2 {
     margin: 10px;
     background-color: #537918;
-    border: 0px;
+    border-radius: 15px;
+    padding: 10px 40px;
 }
 
 #souvenir .btn-3 {
     margin: 10px;
     background-color: #8C0909;
-    border: 0px;
+    border-radius: 15px;
+    padding: 10px 40px;
 }
 
 #souvenir .btn-4 {
     margin: 10px;
     background-color: #1F386B;
-    border: 0px;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+
+#souvenir .btn-1:hover {
+    color: #FE7E00;
+    border: 1px solid;
+    border-left: #FE7E00;
+    border-right: #FE7E00;
+    background-color: white;
+}
+
+#souvenir .btn-2:hover {
+    color: #537918;
+    border: 1px solid;
+    border-left: #537918;
+    border-right: #537918;
+    background-color: white;
+}
+
+#souvenir .btn-3:hover {
+    color: #8C0909;
+    border: 1px solid;
+    border-left: #8C0909;
+    border-right: #8C0909;
+    background-color: white;
+}
+
+#souvenir .btn-4:hover {
+    color: #1F386B;
+    border: 1px solid;
+    border-left: #1F386B;
+    border-right: #1F386B;
+    background-color: white;
 }
 
 /*volunteer*/
@@ -460,6 +525,7 @@ h1 {
 #volunteer button {
     display: inline-block;
     border-radius: 50px 50px 50px 50px;
+    border: none;
     background-color: #ffa500;
     padding: 15px 100px 15px 100px;
     font-family: "Roboto", Sans-serif;
@@ -473,14 +539,15 @@ h1 {
     #volunteer button {
         padding: 15px 50px 15px 50px;
     }
-
-    /*partner&sponsor*/
-    #partners-sponsors img {
-        width: 100%;
-        height: auto;
-    }
-
 }
+
+/*partner&sponsor*/
+#partners-sponsors img {
+    width: 100%;
+    height: auto;
+}
+
+
 
 /*bepartner&sponsor*/
 #ps-form p {
@@ -526,6 +593,7 @@ h1 {
     letter-spacing: none;
     margin: 0;
 }
+
 
 /*foreignsponsorship*/
 #foreign p {
@@ -668,6 +736,10 @@ h1 {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
+}
+
+#site-footer .divider{
+    margin: 1rem;
 }
 
 /*try*/

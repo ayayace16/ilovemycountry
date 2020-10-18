@@ -14,7 +14,7 @@
             <a href="#about">ABOUT US</a>
         </li>
         <li class="nav-item">
-            <a href="#our-programs">PROGRAMS</a>
+            <a href="#our-program">PROGRAMS</a>
         </li>
         <li class="nav-item">
             <a href="#gallery">GALLERY</a>
@@ -34,12 +34,12 @@
         <li class="nav-item nowrap dropdown">
             <a class="dropdown-toggle" href="#ilmcrun2019" id="dropdown05" data-toggle="dropdown" aria-expanded="false">SPONSORS</a>
             <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="#">BECOME OUR PARTNER/SPONSOR</a>
-                <a class="dropdown-item" href="#">FOREIGN SPONSORSHIP</a>
+                <a class="dropdown-item" href="#ps-form">BECOME OUR PARTNER/SPONSOR</a>
+                <a class="dropdown-item" href="#foreign">FOREIGN SPONSORSHIP</a>
             </div>
         </li>
         <li class="nav-item">
-            <a href="#news">NEWS/EVENTS</a>
+            <a href="#news-events">NEWS/EVENTS</a>
         </li>
         <li class="nav-item nowrap">
             <a class="contact" href="#contact">CONTACT US</a>

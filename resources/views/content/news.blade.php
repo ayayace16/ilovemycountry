@@ -8,7 +8,7 @@
             <div class="divider"></div>
         </div>
         <div class="row mx=auto justify-content-center">
-            <div class="col-sm-10 col-lg-4">
+            <div class="col-sm-10 col-lg-4 col-xl-4">
                 <a href="#"> <img src="image/news/news-1.jpg" width="289.78px" height="196.06px"> </a>
             </div>
             <div class="col-xl-6 text-left">
@@ -28,7 +28,7 @@
         </div>
         <hr>
         <div class="row mx=auto justify-content-center">
-            <div class="col-xl-4">
+            <div class="col-sm-10 col-lg-4 col-xl-4">
                 <a href="#"><img src="image/news/news-2.png" width="289.78px" height="196.06px"></a>
             </div>
             <div class="col-xl-6 text-left">
@@ -45,7 +45,7 @@
         </div>
         <hr>
         <div class="row mx=auto justify-content-center">
-            <div class="col-xl-4">
+            <div class="col-sm-10 col-lg-4 col-xl-4">
                 <a href="#"><img src="image/news/news-3.jpg" width="289.78px" height="196.06px"></a>
             </div>
             <div class="col-xl-6 text-left">
@@ -59,7 +59,7 @@
         </div>
         <hr>
         <div class="row mx=auto justify-content-center">
-            <div class="col-xl-4">
+            <div class="col-sm-10 col-lg-4 col-xl-4">
                 <a href="#"><img src="image/news/news-4.png" width="289.78px" height="196.06px"></a>
             </div>
             <div class="col-xl-6 text-left">

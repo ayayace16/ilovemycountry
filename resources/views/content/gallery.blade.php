@@ -255,7 +255,4 @@
       <div class="divider"></div>
   </div>
 </div>
-
-
-</div>
 </div>

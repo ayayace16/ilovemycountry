@@ -14,28 +14,28 @@
              </div>
          </div>
          <div class="row mx=auto justify-content-center">
-             <div class="col-xl-3 text-center">
+             <div class="col-sm-4 col-md-6 col-xl-3 text-center">
                  <div class="polaroid-select">
                      <img src="image/souvenir/souvenir-1.png" width="170px" height="170px">
                      <div class="row justify-content-center"><caption>P199.00</caption></div>
                      <button type="button" class="btn-1 btn-primary">Buy Now</button>
                  </div>
              </div>
-             <div class="col-xl-3 text-center">
+             <div class="col-sm-4 col-md-6 col-xl-3 text-center">
                  <div class="polaroid-select">
                      <img src="image/souvenir/souvenir-2.png" width="175px" height="175px">
                      <div class="row justify-content-center"><caption>P350.00</caption></div>
                      <button type="button" class="btn-2 btn-primary">Buy Now</button>
                  </div>
              </div>
-             <div class="col-xl-3 text-center">
+             <div class="col-sm-4 col-md-6 col-xl-3 text-center">
                  <div class="polaroid-select">
                      <img src="image/souvenir/souvenir-3.png" width="175px" height="175px">
                      <div class="row justify-content-center"><caption>Car Sticker 3 for 100</caption></div>
                      <button type="button" class="btn-3 btn-primary">Buy Now</button>
                  </div>
              </div>
-             <div class="col-xl-3 text-center">
+             <div class="col-sm-4 col-md-6 col-xl-3 text-center">
                  <div class="polaroid-select">
                      <img src="image/souvenir/souvenir-4.png" width="175px" height="175px">
                      <div class="row justify-content-center"><caption>P149.00</caption></div>

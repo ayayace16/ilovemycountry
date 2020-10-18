@@ -8,13 +8,13 @@
             <div class="divider"></div>
         </div>
                 <div class="row mx-auto justify-content-center">
-                    <div class="col-sm-10 col-lg-4 text-center">
+                    <div class="col-sm-10 col-md-4 col-xl-4">
                         <img src="image/volunteer/vol-1.jpg" width="343px" height="215px">
                     </div>
-                    <div class="col-sm-10 col-xl-4 text-center">
+                    <div class="col-sm-10 col-md-4 col-xl-4">
                         <img src="image/volunteer/vol-2.png" width="343px" height="215px">
                     </div>
-                    <div class="col-sm-10 col-xl-4 text-center">
+                    <div class="col-sm-10 col-md-4 col-xl-4">
                         <img src="image/volunteer/vol-3.jpg" width="343px" height="215px">
                     </div>
                 </div>
