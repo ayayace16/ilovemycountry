@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white px-2 sticky-top">
+<nav class="navbar navbar-expand-xl navbar-light bg-white px-2 sticky-top">
     <a class="navbar-brand" href="#"><img src="../image/cropped-logo.jpg" width="100" height="75" class="d-inline-block align-center"
         alt="ilovemycountry.ph"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
