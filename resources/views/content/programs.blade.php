@@ -78,7 +78,7 @@
  </div>
  <div id="our-program">
      <div class="parallax">
-         <h1>MEDIA CAMPAIGNS & AWARDS</h1>
+         <h1 class="h1-others">MEDIA CAMPAIGNS & AWARDS</h1>
      </div>
      <div class="container">
          <div class="row">

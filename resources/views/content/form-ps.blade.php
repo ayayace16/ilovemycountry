@@ -1,7 +1,7 @@
 <!--partners-sponsors-form-->
 <div id="ps-form">
     <div class="parallax">
-        <h1>BE PARTNERS AND SPONSORS</h1>
+        <h1 class="h1-others">BE PARTNERS AND SPONSORS</h1>
     </div>
     <div class="container">
         <div class="row">

@@ -147,7 +147,7 @@ li.nav-item.nowrap {
     background-size: 500%;
 }
 
-h1 {
+.parallax h1 {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -157,9 +157,14 @@ h1 {
 }
 
 @media (max-width: 320px){
-    h1 {
-        font-size: 30px;
-        white-space: nowrap;
+    .parallax h1 {
+        font-size: 25px;
+        white-space: wrap;
+        padding: 22px 0;
+    }
+
+    .parallax .h1-others{
+        padding: 7px 0;
     }
 }
 

@@ -1,7 +1,7 @@
 <!--our-partners-and-sponsors-->
 <div id="partners-sponsors">
     <div class="parallax">
-        <h1>OUR PARTNERS AND SPONSORS</h1>
+        <h1 class="h1-others">OUR PARTNERS AND SPONSORS</h1>
     </div>
     <div class="container">
         <div class="row">
