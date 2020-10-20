@@ -332,6 +332,7 @@ li.nav-item.nowrap {
 #our-program a {
     font-size: 25px;
     color: #dd9933;
+    width: 100%;
 }
 
 #our-program p {
@@ -346,6 +347,12 @@ li.nav-item.nowrap {
 @media (max-width: 1024px){
     #our-program div {
         text-align: center;
+    }
+
+    #our-program a {
+        font-size: 23px;
+        color: #dd9933;
+        width: 100%;
     }
 }
 
@@ -402,6 +409,7 @@ li.nav-item.nowrap {
     font-size: 22px;
     font-weight: 500;
     text-align: left;
+    width: 100%;
 }
 
 #news-events p {
@@ -417,6 +425,9 @@ li.nav-item.nowrap {
 
 @media (max-width: 1024px){
     #news-events a{
+        text-align: center;
+    }
+    #news-events h2{
         text-align: center;
     }
 }
