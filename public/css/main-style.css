@@ -357,7 +357,7 @@ h1 {
 .carousel-indicators>li {
     border-radius: 50% !important;
     width: 5px;
-    height: 5x;
+    height: 5px;
 }
 
 .img-carousel {
@@ -368,7 +368,7 @@ h1 {
     background-color: gray;
 }
 
-@media (min-width:320px){
+@media (max-width:320px){
     #rfffp{
     border: 1px solid gray;
     }
@@ -396,6 +396,7 @@ h1 {
 #news-events h2 {
     font-size: 22px;
     font-weight: 500;
+    text-align: left;
 }
 
 #news-events p {
