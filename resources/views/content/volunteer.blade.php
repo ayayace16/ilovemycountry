@@ -25,7 +25,8 @@
                 </div>
                 <div class="row mx-auto justify-content-center">
                     <div class="col-xl-12 text-center">
-                        <button type="button" class="btn-4">Sign-up Now!</button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign-up Now!</button>
+
                     </div>
                 </div>
             </div>
