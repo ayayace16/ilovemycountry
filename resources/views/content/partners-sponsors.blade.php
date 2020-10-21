@@ -7,6 +7,7 @@
         <div class="row">
             <div class="divider"></div>
         </div>
+        <div class="container">
                 <div class="row mx-auto justify-content-between">
                     <div class="col-sm-10 col-md-6 col-lg-2 my-auto">
                         <img src="image/pas/1.png" width="202">
@@ -20,10 +21,12 @@
                     <div class="col-sm-10 col-md-6 col-lg-2 my-auto">
                         <img src="image/pas/4.png" width="202">
                     </div>
-                    <div class="col-sm-10 col-md-6 col-lg-2 my-auto">
+                    <div class="col col-sm-10 col-md-6 col-lg-2 my-auto">
                         <img src="image/pas/5.png" width="202">
                     </div>
                 </div>
+        </div>
+        <div class="container">
                 <div class="row mx-auto justify-content-between">
                     <div class="col-sm-10 col-md-6 col-lg-2 my-auto">
                         <img src="image/pas/6.png" width="202">
@@ -41,6 +44,7 @@
                         <img src="image/pas/10.png" width="202">
                     </div>
                 </div>
+        </div>
                 <div class="row mx-auto justify-content-between">
                     <div class="col-sm-10 col-md-6 col-lg-3 my-auto">
                         <img src="image/pas/11.png" width="202">

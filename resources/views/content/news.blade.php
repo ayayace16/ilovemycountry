@@ -76,7 +76,7 @@
         </div>
         <div class="row mx-auto justify-content-center">
             <div class="col-xl-12 text-center">
-                <button type="button" class="btn btn-outline-warning">READ MORE NEWS</button>
+                <button type="button" class="btn btn-outline-primary" onclick="location.href='http://blogs.ilovemycountry.ph/'">READ MORE NEWS</button>
             </div>
         </div>
         <div class="row">

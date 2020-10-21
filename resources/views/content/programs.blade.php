@@ -24,6 +24,8 @@
              </div>
          </div>
          <hr>
+
+
          <div class="row mx=auto justify-content-center">
              <div class="col-xl-6">
                  <a href="#">ILOVEMYCOUNTRY IN COMMUNITY</a>
@@ -48,11 +50,9 @@
                  <img src="image/Programs/programs-3.png" width="289.78px" height="196.06px">
              </div>
              <div class="col-xl-6">
-                 <div class="programc">
-                     <a href="#">ILOVEMYCOUNTRY IN SCHOOLS</a>
-                     <p>Talks and symposia on how to love our country more to make it a
-                         Fraud-Free country.</p>
-                 </div>
+                 <a href="#">ILOVEMYCOUNTRY IN SCHOOLS</a>
+                 <p>Talks and symposia on how to love our country more to make it a
+                     Fraud-Free country.</p>
              </div>
          </div>
          <hr>
@@ -74,13 +74,9 @@
          <div class="row">
              <div class="divider"></div>
          </div>
-     </div>
- </div>
- <div id="our-program">
-     <div class="parallax">
-         <h1 class="h1-others">MEDIA CAMPAIGNS & AWARDS</h1>
-     </div>
-     <div class="container">
+         <div class="parallax">
+             <h1 class="h1-others">MEDIA CAMPAIGNS & AWARDS</h1>
+         </div>
          <div class="row">
              <div class="divider"></div>
          </div>

@@ -98,7 +98,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#news">NEWS/EVENTS</a>
+                    <a href="https://blogs.ilovemycountry.ph/">NEWS/EVENTS</a>
                 </li>
                 <li class="nav-item nowrap">
                     <a class="contact" href="#contact">CONTACT US</a>
