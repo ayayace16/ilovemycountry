@@ -131,6 +131,45 @@ li.nav-item.nowrap {
     }
 }
 
+/*socialbar*/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 15px 15px 0;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  } 
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .pinterest {
+    background: red;
+    color: white;
+  }
+
 /*parallax*/
 .parallax {
     background-image: url("../image/heart1.png");

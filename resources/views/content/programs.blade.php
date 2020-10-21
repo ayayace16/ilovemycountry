@@ -74,9 +74,11 @@
          <div class="row">
              <div class="divider"></div>
          </div>
-         <div class="parallax">
-             <h1 class="h1-others">MEDIA CAMPAIGNS & AWARDS</h1>
-         </div>
+     </div>
+     <div class="parallax">
+         <h1 class="h1-others">MEDIA CAMPAIGNS & AWARDS</h1>
+     </div>
+     <div class="container">
          <div class="row">
              <div class="divider"></div>
          </div>
