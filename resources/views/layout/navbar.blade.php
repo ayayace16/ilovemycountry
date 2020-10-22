@@ -22,7 +22,7 @@
         <li class="nav-item nowrap dropdown">
             <a class="dropdown-toggle" href="#ilmcrun2019" id="dropdown05" data-toggle="dropdown" aria-expanded="false">ILMC RUN 2019</a>
             <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="#">VIDEO MAKING CONTEST - VISION 2050</a>
+                <a class="dropdown-item" href="https://ilovemycountry.ph/a-fraud-free-philippines-video-making-contest/">VIDEO MAKING CONTEST - VISION 2050</a>
               </div>
         </li>
         <li class="nav-item">

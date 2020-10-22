@@ -1,4 +1,5 @@
 <!--volunteer-->
+@include('content/signup')
 <div id="volunteer">
     <div class="parallax">
         <h1>VOLUNTEER</h1>
