@@ -14,7 +14,7 @@
                  <small>FOUNDER AND CEO</small>
              </div>
              <div class="col-sm-10 col-md-4 col-lg-3 text-center ">
-                 <img src="image/About/advocacy-team/Ma'am-Alina.png">
+                 <img src="image/About/advocacy-team/Maam-Alina.png">
                  <h4>ALINA ORILLO-SISON</h4>
                  <small>FOUNDER AND COO</small>
              </div>
@@ -24,22 +24,22 @@
                  <small>CO-FOUNDER & CHIEF MARKETING<br>STATEGIST</small>
              </div>
              <div class="col-sm-10 col-md-4 col-lg-3 text-center ">
-                 <img src="image/About/advocacy-team/Ma'am-Aiza.png">
+                 <img src="image/About/advocacy-team/Maam-Aiza.png">
                  <h4>AIZA P. CAMUA</h4>
                  <small>TREASURER</small>
              </div>
              <div class="col-sm-10 col-md-4 col-lg-3 text-center ">
-                 <img src="image/About/advocacy-team/Ma'am-Jennifer.png" class="picture">
+                 <img src="image/About/advocacy-team/Maam-Jennifer.png" class="picture">
                  <h4>JENNIFER PAHOYO</h4>
                  <small>MANAGER</small>
              </div>
              <div class="col-sm-10 col-md-4 col-lg-3  text-center ">
-                 <img src="image/About/advocacy-team/Ma'am-Abby.png" class="picture">
+                 <img src="image/About/advocacy-team/Maam-Abby.png" class="picture">
                  <h4>ABBY GRACE ESTOCE</h4>
                  <small>PROGRAM ASSOCIATE</small>
              </div>
              <div class="col-sm-10 col-md-4 col-lg-3  text-center ">
-                 <img src="image/About/advocacy-team/Ma'am-Cecile.png" class="picture">
+                 <img src="image/About/advocacy-team/Maam-Cecile.png" class="picture">
                  <h4>CECILIA R. OREDINA</h4>
                  <small>CONSULTANT</small>
              </div>
