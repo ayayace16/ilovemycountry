@@ -82,8 +82,6 @@
          <div class="row">
              <div class="divider"></div>
          </div>
-         <div class="row mx-auto justify-content-center">
-             <div class="col-xl-12">
                  <div class="row mx=auto justify-content-center">
                      <div class="col-sm-10 col-md-4 col-xl-4">
                          <img src="image/Programs/mca/mca-1.png" width="289.78px" height="196.06px">
@@ -125,8 +123,6 @@
                              and
                              uplifting the Philippines as a nation.</p>
                      </div>
-                 </div>
-             </div>
          </div>
          <div class="row">
              <div class="divider"></div>

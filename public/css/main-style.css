@@ -441,9 +441,9 @@ li.nav-item.nowrap {
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 540px){
     #our-program .col-xl-6 {
-        padding: 0 20px;
+        padding: 0 25px;
     }
 
     #our-program a {
@@ -464,7 +464,6 @@ li.nav-item.nowrap {
     width: 363px;
     height: auto;
 }
-
 
 @media (max-width: 414px){
     #gallery h2{
@@ -682,6 +681,7 @@ li.nav-item.nowrap {
 #myModal .close{
     background-color: transparent;
     color: black;
+    border: none;
     padding: 0;
     font-size: 30px;
     margin-left: auto;
@@ -724,6 +724,10 @@ li.nav-item.nowrap {
 #myModal h2{
     color: #74C1E4;
     font-weight: bold;
+}
+
+.modal-dialog{
+    pointer-events: auto;
 }
 
 @media (max-width: 375px) {
