@@ -1,3 +1,4 @@
+/**site**/
 /*overall*/
 html {
     margin: 0;
@@ -948,4 +949,26 @@ li.nav-item.nowrap {
     margin: 1rem;
 }
 
-/*try*/
+/**login**/
+#login .container-login{
+    border: 1px solid #d9d9d9;
+    margin: 15px;
+    border-radius: 15px;
+    
+}
+#login .divider{
+    margin: 2.5rem;
+}
+
+#login label{
+    margin: 0 0 0 5px;
+}
+
+#login .btn{
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+}
+
+#login h2{
+    margin: 10px auto;
+}

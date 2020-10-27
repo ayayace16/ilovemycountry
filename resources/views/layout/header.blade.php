@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{asset('css/main-style.css')}}">
     <link rel="stylesheet" href="{{asset('css/flickity.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     @laravelPWA
     
     <title>ILOVEMYCOUNTRY.PH</title>
