@@ -995,3 +995,12 @@ li.nav-item.nowrap {
     background-color: white;
 }
 
+.sidenav ul{
+    list-style: none;
+}
+
+.sidenav .sidenav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
